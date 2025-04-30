@@ -43,7 +43,7 @@ const Toggle = ({
 
   return (
     <div
-      className="relative inline-block"
+      className="relative inline-block font-monster"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >

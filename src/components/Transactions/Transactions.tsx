@@ -13,14 +13,32 @@ const transactions = [
     amount: "$54,000",
     status: "Successful",
   },
+  {
+    name: "Product Name/List",
+    date: "13/09/2022",
+    amount: "$54,000",
+    status: "Successful",
+  },
+  {
+    name: "Product Name/List",
+    date: "13/09/2022",
+    amount: "$54,000",
+    status: "Successful",
+  },
+  {
+    name: "Product Name/List",
+    date: "13/09/2022",
+    amount: "$54,000",
+    status: "Successful",
+  },
 ];
 
 const Transactions = () => {
   return (
     <div className="p-6 bg-white rounded-lg shadow">
-      <h2 className="text-lg font-semibold mb-6">Transactions</h2>
+      <h2 className="text-xl font-playfair font-semibold mb-6">Transactions</h2>
 
-      <div className="space-y-4">
+      <div className="space-y-4 max-h-52 overflow-y-auto scrollbar-hide">
         {transactions.map((transaction, index) => (
           <div key={index} className="flex items-center justify-between py-3">
             <div className="flex items-center gap-3">

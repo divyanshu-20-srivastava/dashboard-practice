@@ -26,7 +26,7 @@ const RecentMessages = () => {
   return (
     <div className="p-6 rounded-2xl bg-white shadow">
       <div className="flex justify-between items-center mb-6">
-        <h2 className="text-lg font-semibold font-monster">Recent Messages</h2>
+        <h2 className="text-xl font-semibold font-playfair">Recent Messages</h2>
         <button className="text-sm text-black hover:underline font-medium">
           View All
         </button>
@@ -39,11 +39,11 @@ const RecentMessages = () => {
             className="flex items-center justify-between py-3 border-b last:border-b-0"
           >
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-lg">
+              <div className="w-10 h-10 rounded-full overflow-hidden">
                 <img
                   src={message.avatar}
                   alt={message.name}
-                  className="w-full h-full object-cover rounded-lg"
+                  className="w-full h-full object-cover rounded-full"
                 />
               </div>
               <div>

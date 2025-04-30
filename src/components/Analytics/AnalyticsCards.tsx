@@ -28,10 +28,14 @@ const AnalyticsCards = () => {
             <img src={card.icon} alt={card.title} className="w-6 h-6" />
           </div>
           <div>
-            <p className={`text-sm opacity-70 font-medium ${textColors[idx]}`}>
+            <p
+              className={`text-sm opacity-70 font-medium font-monster ${textColors[idx]}`}
+            >
               {card.title}
             </p>
-            <p className={`text-2xl font-semibold ${textColors[idx]}`}>
+            <p
+              className={`text-2xl font-semibold font-monster ${textColors[idx]}`}
+            >
               {card.value}
             </p>
           </div>
